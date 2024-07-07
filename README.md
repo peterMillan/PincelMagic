@@ -29,7 +29,11 @@ Ejecuta la aplicación:
 
 Uso
     Selecciona un color desde el selector de color.
+ 
     Utiliza el mouse para dibujar en el lienzo manteniendo presionado el botón.
+    
     En dispositivos móviles, toca y desliza para dibujar.
+    
     Usa el botón "Goma" para activar/desactivar la función de borrado.
+    
     Haz clic en "Limpiar" para borrar todo el contenido del lienzo.
