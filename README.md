@@ -1,4 +1,4 @@
- Paint App with Flask
+PincelMagic with Flask
 Este es un proyecto de una aplicación de dibujo interactivo utilizando Flask.
 Funcionalidades
 
