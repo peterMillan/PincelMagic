@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 3rem;
+    background-color: #7eb6ea;
+}
+
+h1 {
+    color: rgb(5, 67, 100);
+    font-size: 5rem;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border-radius: 1rem;
+    border: 1px solid #000;
+    background-color: #fff;
+    touch-action: none; /* Prevent scrolling on touch devices */
+}
+
+
+/* Estilos generales para el lienzo */
+#drawingCanvas {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Media query para dispositivos en modo portrait */
+@media (orientation: portrait) {
+    #drawingCanvas {
+        width: 80vw; 
+        height: auto; 
+        max-height: 60vh;
+    }
+    h1 {
+        color: rgb(5, 67, 100);
+        font-size: 3rem;
+    }
+    body {
+        font-size: 2rem;
+        background-color: #7eb6ea;
+    }
+    
+}
